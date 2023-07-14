@@ -1,0 +1,43 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 28px;
+}
+
+.navbar-brand span {
+  color: #ff7ec4;
+}
+
+.nav-link {
+  margin-right: 30px;
+  font-size: 20px;
+  color: #3f3f3f;
+}
+
+.nav-link:hover {
+  color: #66c8ff;
+  text-decoration: underline;
+  text-decoration-color: #66c8ff;
+}
+
+.title-hero,
+.title-contact,
+.title-footer {
+  font-size: 64px;
+}
+
+.harga-service {
+  color: #ff7ec4;
+}
+
+.btn-send {
+  width: 202px;
+  font-size: 24px;
+}
+
+footer {
+  background: #66c8ff;
+  color: white;
+}

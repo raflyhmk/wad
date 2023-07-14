@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6a4ade49be.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="container mt-4">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span>WAD</span>.CO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav m-auto">
+              <a class="nav-link" aria-current="page" href="#">HOME</a>
+              <a class="nav-link" href="#">SERVICES</a>
+              <a class="nav-link" href="#">TESTIMONI</a>
+              <a class="nav-link" href="#">CONTACT US</a>
+            </div>
+            <button
+              type="button"
+              class="btn btn-outline-dark btn-login btn-lg fw-bold me-3"
+            >
+              LOGIN
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary btn-register btn-lg fw-bold"
+            >
+              REGISTER
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- end navbar -->
+
+    <!-- hero banner -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-7 d-flex justify-content-end">
+          <img src="./images/img-hero.png" alt="" class="img-fluid" />
+        </div>
+        <div
+          class="col-sm-12 col-md-6 col-lg-5 align-self-center order-md-first"
+        >
+          <h1 class="title-hero fw-bold">
+            Unleash Your Style, Rent Your Fashion.
+          </h1>
+          <p class="desc-hero fw-normal fs-4 mt-4">
+            Welcome to our Fashion Rental platform, where style knows no
+            boundaries. Discover a world of endless possibilities as you
+            explore.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary btn-login btn-lg fw-bold me-5"
+          >
+            Get Started
+          </button>
+          <button type="button" class="btn btn-light btn-login btn-lg fw-bold">
+            <i class="fa-sharp fa-regular fa-circle-play"></i>
+            Watch Trailer
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- end hero banner -->
+
+    <!-- services -->
+    <div class="container mt-5">
+      <h1 class="title-services text-center fw-bold">Our Services</h1>
+      <h2 class="subtitle-services text-center fw-normal fs-4 mt-3 mb-5">
+        Welcome to our Fashion Rental platform, where style knows no boundaries
+      </h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="./images/services 1.jpg" alt="" class="img-fluid" />
+          <h1 class="nama-services mt-3 fw-bold">Services 1</h1>
+          <p class="desc-services fw-normal">
+            Welcome to our Fashion Rental platform, where style knows no
+            boundaries.
+          </p>
+          <h2 class="harga-service fw-bold">Start From $123</h2>
+        </div>
+        <div class="col-md-4">
+          <img src="./images/services 2.jpg" alt="" class="img-fluid" />
+          <h1 class="nama-services mt-3 fw-bold">Services 2</h1>
+          <p class="desc-services fw-normal">
+            Welcome to our Fashion Rental platform, where style knows no
+            boundaries.
+          </p>
+          <h2 class="harga-service fw-bold">Start From $123</h2>
+        </div>
+        <div class="col-md-4">
+          <img src="./images/services 3.jpg" alt="" class="img-fluid" />
+          <h1 class="nama-services mt-3 fw-bold">Services 3</h1>
+          <p class="desc-services fw-normal">
+            Welcome to our Fashion Rental platform, where style knows no
+            boundaries.
+          </p>
+          <h2 class="harga-service fw-bold">Start From $123</h2>
+        </div>
+      </div>
+    </div>
+    <!-- end services -->
+
+    <!-- testimoni -->
+    <div class="container mt-5">
+      <h1 class="title-testimoni text-center fw-bold">Testimoni</h1>
+      <h2 class="subtitle-testimoni text-center fw-normal fs-4 mt-3 mb-4">
+        Welcome to our Fashion Rental platform, where style knows no boundaries
+      </h2>
+      <center>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide col-6"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/review.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/review.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/review.jpg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </center>
+      <center>
+        <div class="col-6">
+          <h1
+            class="title-testimoni fw-bold mt-4 text-start d-flex justify-content-between"
+          >
+            Jarwo Kwat
+            <i class="fa-solid fa-star" style="color: #fbd85d"
+              ><span class="fw-light ms-3" style="color: #868686">4.5</span></i
+            >
+          </h1>
+          <h2 class="subtitle-testimoni text-start fw-normal fs-4 mt-3">
+            Welcome to our Fashion Rental platform, where style knows no
+            boundaries
+          </h2>
+        </div>
+      </center>
+    </div>
+    <!-- end testimoni -->
+
+    <!-- contact us -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="title-contact fw-bold">Contact Us</h1>
+          <h2 class="subtitle-contact fw-normal fs-4 mt-3 mb-4">
+            Welcome to our Fashion Rental platform, where style knows no
+            boundaries
+          </h2>
+          <hr />
+          <form>
+            <div class="mb-4">
+              <label for="exampleInputEmail1" class="form-label fs-3"
+                >Nama Lengkap</label
+              >
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Muhammad Rafly Hamka"
+              />
+            </div>
+            <div class="mb-4">
+              <label for="exampleInputPassword1" class="form-label fs-3"
+                >Email</label
+              >
+              <input
+                type="email"
+                class="form-control form-control-lg"
+                id="exampleInputPassword1"
+                placeholder="masukan email"
+              />
+            </div>
+            <div class="mb-4">
+              <label for="exampleFormControlTextarea1" class="form-label fs-3"
+                >Example textarea</label
+              >
+              <textarea
+                class="form-control form-control-lg"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="masukan pesan"
+              ></textarea>
+            </div>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-primary btn-send">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-6 mt-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.643999412759!2d110.39443751189356!3d-7.827451292160878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5719998565c7%3A0xaad77b93e39dc1d2!2zQW5pZ2FtZeqni-qmhOqmpOqmtuqmkuqmqeqmug!5e0!3m2!1sid!2sid!4v1689261136045!5m2!1sid!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <br />
+          <div class="icon mt-4">
+            <i class="fa-brands fa-whatsapp fa-2xl me-4"></i>
+            <i class="fa-brands fa-instagram fa-2xl me-4"></i>
+            <i class="fa-brands fa-linkedin fa-2xl me-4"></i>
+            <i class="fa-brands fa-facebook fa-2xl me-4"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact us -->
+
+    <!-- footer -->
+    <footer class="mt-5 p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-4 align-self-center">
+            <h1 class="title-footer fw-bold">WAD 2023</h1>
+          </div>
+          <div class="col-sm-12 col-lg-6 offset-lg-2">
+            <h1 class="nama">Nama: Muhammad Rafly Hamka</h1>
+            <h1 class="nama">NIM: 1202204136</h1>
+            <h1 class="nama">Kode Asprak: Yoru</h1>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
